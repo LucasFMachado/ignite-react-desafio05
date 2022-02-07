@@ -1,1 +1,37 @@
-// TODO
+.postContainer {
+  max-width: 720px;
+  margin: 2rem auto;
+
+  strong {
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 3rem;
+  }
+}
+
+.postInfo {
+  margin: 1rem 0;
+  color: var(--gray-300);
+  display: flex;
+  align-items: center;
+
+  time {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+
+    svg {
+      margin: 0 0.4rem 0 0;
+    }
+  }
+
+  span {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+
+    svg {
+      margin: 0 0.4rem 0 0;
+    }
+  }
+}

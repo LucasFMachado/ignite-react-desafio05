@@ -4,4 +4,17 @@
   padding: 0;
 }
 
-// TODO
+body {
+  background: #1a1d23;
+  color: #f8f8f8;
+}
+
+a {
+  color: #f8f8f8;
+  text-decoration: none;
+}
+
+a,
+button {
+  cursor: pointer;
+}
